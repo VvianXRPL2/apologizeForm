@@ -1,0 +1,81 @@
+.container {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: black;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    width: 450px;
+    height: 800px;
+    display: block;
+    margin: auto;
+}
+
+.img {
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    color: palevioletred;
+}
+
+h2 {
+    margin-top: -20px;
+    color: palevioletred;
+}
+
+h3 {
+    color: palevioletred;
+}
+
+#btnYes {
+    background-color: rgb(143, 248, 73);
+    color: white;
+    border: none;
+    font-size: 80px ;
+    padding: 46px 60px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#btnNo {
+    background-color: rgb(250, 71, 71);
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#btnYes:hover {
+    background-color: rgb(12, 192, 12);
+}
+
+#btnNo:hover {
+    background-color: rgb(199, 25, 25);
+}
+
+#btnYes:active {
+    transform: translateY(2px);
+}
+
+#btnNo:active {
+    transform: translateY(2px);
+}
+
+.button {
+    margin-top: 10px;
+}
+
+#reminder {
+    margin-top: -60px;
+    margin-left: 300px;
+    font-size: 10px;
+}
